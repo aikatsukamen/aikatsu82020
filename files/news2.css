@@ -1,0 +1,1061 @@
+.coordinateCol {
+  background: #dddddd;
+  width: 85.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4.16vw;
+  border-radius: 2.5vw;
+  overflow: hidden;
+}
+.coordinateCol::after {
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+@media (min-width: 801px) {
+  .coordinateCol {
+    border-radius: 18px;
+    width: 1026px;
+    padding: 40px;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateInner {
+    width: 946px;
+    margin: 0;
+    text-align: center;
+  }
+}
+.coordinateTitle {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #666666;
+  border-radius: 1.75vw 1.75vw 0 0;
+}
+.coordinateTitle img {
+  width: 100%;
+}
+@media (min-width: 801px) {
+  .coordinateTitle {
+    height: 115px;
+    border-radius: 14px;
+    float: right;
+    width: 546px;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateTitle_1col {
+    width: 100%;
+  }
+}
+.coordinateCol_cute {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_cute.png);
+}
+.coordinateCol_cute .coordinateTitle {
+  background: #ff8ec1;
+}
+.coordinateCol_cool {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_cool.png);
+}
+.coordinateCol_cool .coordinateTitle {
+  background: #6dbfff;
+}
+.coordinateCol_sexy {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_sexy.png);
+}
+.coordinateCol_sexy .coordinateTitle {
+  background: #b383f3;
+}
+.coordinateCol_pop {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_pop.png);
+}
+.coordinateCol_pop .coordinateTitle {
+  background: #fed700;
+}
+.coordinateCol_other {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_other.png);
+}
+.coordinateCol_other .coordinateTitle {
+  background: #ffa56d;
+}
+.coordinateInfo::after {
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.mainDate {
+  float: left;
+}
+.subDate {
+  float: right;
+}
+@media (min-width: 801px) {
+  .subDate {
+    width: 546px;
+  }
+}
+.dateCol {
+  width: 85.5vw;
+}
+@media (min-width: 801px) {
+  .dateCol {
+    width: 946px;
+    margin: 0;
+  }
+}
+@media (max-width: 800px) {
+  .dateCol.coordinateCommentCard3 {
+    height: 0;
+  }
+}
+.coordinateChara {
+  float: left;
+  width: 45%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto 3.33vw;
+  padding-top: 2vw;
+}
+@media (max-width: 800px) {
+  .coordinateChara img {
+    max-height: 67.5vw;
+    width: auto;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateChara {
+    float: left;
+    height: auto;
+    width: 390px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .coordinateChara img {
+    max-height: 592px;
+    width: auto;
+  }
+}
+.coordinateBrand {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  float: right;
+  width: 55%;
+  height: 42.5vw;
+  margin: 0 auto 3.33vw;
+}
+@media (max-width: 800px) {
+  .coordinateBrand {
+    padding: 0 3.5vw 0 0;
+    box-sizing: border-box;
+  }
+  .coordinateBrand img {
+    width: 80%;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateBrand {
+    width: 546px;
+    height: 230px;
+    text-align: center;
+    margin: 40px auto 0;
+  }
+  .coordinateBrand img {
+    max-height: 220px;
+  }
+}
+.coordinateComment {
+  float: right;
+  width: 55%;
+  margin: 0 auto 4vw;
+}
+@media (max-width: 800px) {
+  .coordinateComment {
+    text-align: left;
+  }
+  .coordinateComment img {
+    width: 90%;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateComment {
+    width: 546px;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .coordinateComment img {
+    width: 60%;
+  }
+}
+.coordinateCommentCard3 {
+  float: right;
+  width: 55%;
+  margin: 0 auto 0;
+}
+@media (max-width: 800px) {
+  .coordinateCommentCard3 {
+    text-align: left;
+  }
+  .coordinateCommentCard3 img {
+    width: 90%;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateCommentCard3 {
+    width: 546px;
+    margin: 40px auto 20px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .coordinateCommentCard3 img {
+    width: 60%;
+  }
+}
+.coordinateCardCol {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.coordinateCardCol img {
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  display: block;
+  width: 36.66vw;
+  height: auto;
+  margin-bottom: 3.33vw;
+}
+@media (max-width: 800px) {
+  .coordinateCardCol.dateCol {
+    width: 77vw;
+    margin: 0 auto;
+  }
+  .coordinateCardCol.card_1l img {
+    width: 18vw;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateCardCol {
+    width: 100%;
+    clear: both;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+  .coordinateCardCol img {
+    display: block;
+    width: 220px;
+    margin: 24px 0 0;
+  }
+}
+@media (max-width: 800px) {
+  .coordinateCol.cardOnly {
+    padding-bottom: 0.83vw;
+  }
+}
+@media (max-width: 800px) {
+  .coordinateCol.cardOnly .coordinateCardCol {
+    padding-top: 4.16vw;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateCol.cardOnly .coordinateCardCol img {
+    margin: 0 0 0;
+  }
+}
+@media (max-width: 800px) {
+  .card3Col .coordinateComment {
+    display: -webkit-flex;
+    display: flex;
+    height: 61.58333vw;
+    margin: 4vw auto;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .card3Col .coordinateCardCol {
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 801px) {
+  .card3Col .coordinateTitle {
+    width: 600px;
+  }
+  .card3Col .coordinateChara {
+    margin: 0 auto 0 -60px;
+  }
+  .card3Col .coordinateComment {
+    width: 600px;
+  }
+  .card3Col .coordinateCardCol {
+    clear: none;
+    display: block;
+    text-align: right;
+    float: right;
+    width: 64%;
+  }
+  .card3Col .coordinateCardCol img {
+    display: inline-block;
+    width: 190px;
+    margin: 24px 0 0;
+  }
+  .card3Col .coordinateCardCol img + img {
+    margin-left: 10px;
+  }
+}
+.pvCol_inner {
+  margin: 0 auto;
+  background: url('https://www.aikatsu.com/onparade/images/movie/img_mvmain_bg.png') no-repeat center top;
+  background-size: contain;
+  padding: 0 2vw;
+}
+@media (max-width: 800px) {
+  .pvCol_inner {
+    padding: 2.5vw 2vw 3vw;
+  }
+}
+.pvCol_inner iframe {
+  width: 74vw;
+  height: 41.8vw;
+  border: none;
+  border-radius: 8px;
+}
+@media (min-width: 801px) {
+  .pvCol_inner {
+    margin: 0 auto;
+    padding: 27px 0 0;
+    width: 100%;
+    height: 574px;
+  }
+  .pvCol_inner iframe {
+    margin: 0 auto;
+    width: 890px;
+    height: 500px;
+    border-radius: 16px;
+  }
+}
+.pagenavCol {
+  text-align: center;
+  letter-spacing: -0.4em;
+}
+.pagenavCol li {
+  width: 28%;
+  display: inline-block;
+  letter-spacing: normal;
+}
+.pagenavCol li img {
+  width: 100%;
+}
+.pagenavCol li + li {
+  margin-left: 1.5vw;
+}
+.pagenavCol.btn4 li {
+  width: 22%;
+}
+.pagenavCol.btn5 li {
+  width: 28%;
+}
+.pagenavCol.btn5 li :last-child {
+  margin-top: 2vw;
+}
+@media (max-width: 800px) {
+  .codeAnime .coordinateComment {
+    display: -webkit-flex;
+    display: flex;
+    height: 61.58333vw;
+    margin: 4vw auto;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+}
+.storyCol {
+  width: 90%;
+  background: #ff8ec1;
+  border-radius: 1vw;
+  margin-bottom: 2vw;
+}
+.storyCol.txtCenter {
+  text-align: center;
+}
+.coordinateCol_cute .storyCol {
+  background: #ff8ec1;
+}
+.coordinateCol_cool .storyCol {
+  background: #6dbfff;
+}
+.coordinateCol_pop .storyCol {
+  background: #fed700;
+}
+.coordinateCol_sexy .storyCol {
+  background: #b383f3;
+}
+.coordinateCol_other .storyCol {
+  background: #ffa56d;
+}
+.basesizeCol .pvCol_inner {
+  -webkit-transform: scale(0.93);
+  transform: scale(0.93);
+}
+.news_pvCol {
+  position: relative;
+  margin: 0 auto;
+  padding: 0.8em 0;
+}
+@media (max-width: 800px) {
+  .news_pvCol {
+    width: 80.83333vw;
+    right: -0.16667vw;
+  }
+}
+@media (min-width: 801px) {
+  .news_pvCol {
+    width: 970px;
+    right: -2px;
+  }
+  .news_pvCol .news_pvCol_2l {
+    display: -webkit-flex;
+    display: flex;
+    width: 936px;
+    margin: auto;
+  }
+  .news_pvCol .news_pvCol_2l .pvCol_inner {
+    margin: 0 auto;
+    padding: 16px 0 0;
+    width: 50%;
+    height: 287px;
+  }
+  .news_pvCol .news_pvCol_2l .pvCol_inner iframe {
+    margin: 0 auto;
+    width: 440px;
+    height: 245px;
+    border-radius: 16px;
+  }
+}
+.news_pvCol.pink {
+  background: #ffe9f5;
+}
+.news_pvCol.mvBg {
+  margin-top: -51.8vw;
+}
+@media (min-width: 801px) {
+  .newsNavCol5btn a img {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .newsNavCol5btn a img:hover,
+  .newsNavCol5btn a img:focus,
+  .newsNavCol5btn a img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.newsNavCol5btn ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .newsNavCol5btn ul {
+    width: 85vw;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .newsNavCol5btn ul li {
+    padding: 0 0.25vw;
+  }
+}
+@media (min-width: 801px) {
+  .newsNavCol5btn ul li {
+    width: 300px;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+}
+.eventCol {
+  background: #fffeef;
+  border-radius: 2.25vw;
+  padding: 5vw 3vw 3vw;
+  margin: 4.5vw 4.5vw 12.5vw;
+  position: relative;
+}
+.eventCol:last-of-type {
+  margin-bottom: 0;
+}
+.eventCol .event_title {
+  position: absolute;
+  top: -9vw;
+  left: 0;
+  margin: 0 -2.5vw;
+}
+.eventCol .getitem {
+  width: 90%;
+  margin: 2vw auto 0;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  padding: 1.5vw;
+  font-weight: 900;
+  color: #fff;
+  font-size: 2.5vw;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.eventCol .getitem.blue {
+  background: #60c0fa;
+}
+.eventCol .getitem.pink {
+  background: #ff919b;
+}
+.eventCol .getitem.orange {
+  background: #ffaa24;
+}
+.eventCol .getitem.green {
+  background: #8feb26;
+}
+.eventCol .getitem.purple {
+  background: #b383f3;
+}
+.eventCol .itemlist {
+  width: 90%;
+  margin: 1vw auto;
+  background: #fff;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  padding: 1.5vw;
+}
+.eventCol .itemlist dt {
+  font-weight: 900;
+  font-size: 2vw;
+}
+.eventCol .itemlist dd {
+  font-size: 1.75vw;
+}
+.charaCol {
+  margin: 2% auto;
+  width: 90%;
+}
+@media (min-width: 801px) {
+  .charaCol {
+    width: 910px;
+  }
+}
+.charaCol h4 {
+  margin: 0 auto 3.5%;
+}
+.charaCol ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.charaCol ul::before,
+.charaCol ul::after {
+  content: '';
+  display: block;
+  width: 22%;
+}
+.charaCol ul::before {
+  -webkit-order: 1;
+  order: 1;
+}
+.charaCol ul .charaInner {
+  width: 22%;
+  margin: 0 0 3.5%;
+}
+.charaCol ul .charaInner .charaImgCol {
+  width: 100%;
+  padding-top: 131.12%;
+  position: relative;
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/bg_chara.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.charaCol ul .charaInner .charaImgCol::before,
+.charaCol ul .charaInner .charaImgCol::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 131.12%;
+}
+.charaCol ul .charaInner .charaImgCol::after {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/frame_chara.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 3;
+}
+
+/* いちご */
+/* https://www.aikatsu.com/onparade/images/news/045/chara/chara_1.png */
+.charaCol ul .charaInner.is_chara-1 .charaImgCol::before {
+  background: url('https://dearstage.co.jp/_images/prof/kirishima_waka_2.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'いちご';
+}
+/* あおい */
+.charaCol ul .charaInner.is_chara-2 .charaImgCol::before {
+  background: url('https://dearstage.co.jp/_images/prof/uebana_furi_2.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'あおい';
+}
+/* 蘭 */
+.charaCol ul .charaInner.is_chara-3 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DXRCWVNUQAI5VS3?format=jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '蘭';
+}
+/* おとめ */
+.charaCol ul .charaInner.is_chara-4 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DcbSq4JUwAAEuSv.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'おとめ';
+}
+/* ユリカ */
+.charaCol ul .charaInner.is_chara-5 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DcbSq4JUwAAEuSv.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ユリカ';
+}
+/* さくら */
+.charaCol ul .charaInner.is_chara-6 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/d6/b9/c8/d6b9c8fd4f958d0a35ce1360c0bf2d5f.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'さくら';
+}
+/* かえで */
+.charaCol ul .charaInner.is_chara-7 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DXRCWVNUQAI5VS3?format=jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'かえで';
+}
+/* しおん */
+.charaCol ul .charaInner.is_chara-8 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DXRCWVNUQAI5VS3?format=jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'しおん';
+}
+.charaCol ul .charaInner.is_chara-9 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_9.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* セイラ */
+.charaCol ul .charaInner.is_chara-10 .charaImgCol::before {
+  background: url('https://dearstage.co.jp/_images/prof/uebana_furi_2.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'セイラ';
+}
+/* きい */
+.charaCol ul .charaInner.is_chara-11 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DXRCWVNUQAI5VS3?format=jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'きい';
+}
+/* そら */
+.charaCol ul .charaInner.is_chara-12 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/d6/b9/c8/d6b9c8fd4f958d0a35ce1360c0bf2d5f.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'そら';
+}
+/* マリア */
+.charaCol ul .charaInner.is_chara-13 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/d6/b9/c8/d6b9c8fd4f958d0a35ce1360c0bf2d5f.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'マリア';
+}
+/* 美月 */
+.charaCol ul .charaInner.is_chara-14 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/16/e3/1b/16e31b09ccb2a0737974ea8e27353974.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '美月';
+}
+/* みくる */
+.charaCol ul .charaInner.is_chara-15 .charaImgCol::before {
+  background: url('https://dearstage.co.jp/_images/prof/uebana_furi_2.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みくる';
+}
+/* あかり */
+.charaCol ul .charaInner.is_chara-16 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DZrysmrVwAAS8cY.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'あかり';
+}
+/* スミレ */
+.charaCol ul .charaInner.is_chara-17 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/5c/27/4c/5c274c4041ac6b9ee241eff0b29b7388.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'スミレ';
+}
+/* ひなき */
+.charaCol ul .charaInner.is_chara-18 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DUn7Ug9UQAE_9Mf.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ひなき';
+}
+/* 紅林 */
+.charaCol ul .charaInner.is_chara-19 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/Dm5bQqMU8AE19zG.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '珠璃';
+}
+/* 凛 */
+.charaCol ul .charaInner.is_chara-20 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/7a/a3/d5/7aa3d596f46c568c7e3d6c1a9de448da.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '凛';
+}
+/* まどか */
+.charaCol ul .charaInner.is_chara-21 .charaImgCol::before {
+  background: url('https://s3-ap-northeast-1.amazonaws.com/cdn.bibi-star.jp/production/imgs/images/000/420/751/lqip.jpg?1572318032') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'まどか';
+}
+.charaCol ul .charaInner.is_chara-22 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_22.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* みやび */
+.charaCol ul .charaInner.is_chara-23 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DcbSq4JUwAAEuSv.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みやび';
+}
+/* ここね */
+.charaCol ul .charaInner.is_chara-24 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/d6/b9/c8/d6b9c8fd4f958d0a35ce1360c0bf2d5f.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ここね';
+}
+/* のの */
+.charaCol ul .charaInner.is_chara-25 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/Dm5bQqMU8AE19zG.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'のの';
+}
+/* リサ */
+.charaCol ul .charaInner.is_chara-26 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/7a/a3/d5/7aa3d596f46c568c7e3d6c1a9de448da.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'リサ';
+}
+/* ニーナ */
+.charaCol ul .charaInner.is_chara-27 .charaImgCol::before {
+  background: url('https://s3-ap-northeast-1.amazonaws.com/cdn.bibi-star.jp/production/imgs/images/000/420/751/lqip.jpg?1572318032') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ニーナ';
+}
+/* ゆめ */
+.charaCol ul .charaInner.is_chara-28 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/EHUsWaqUcAA5kCd.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ゆめ';
+}
+/* ローラ */
+.charaCol ul .charaInner.is_chara-29 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/5c/27/4c/5c274c4041ac6b9ee241eff0b29b7388.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ローラ';
+}
+/* 真昼 */
+.charaCol ul .charaInner.is_chara-30 .charaImgCol::before {
+  background: url('https://s3-ap-northeast-1.amazonaws.com/cdn.bibi-star.jp/production/imgs/images/000/420/751/lqip.jpg?1572318032') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '真昼';
+}
+/* あこ */
+.charaCol ul .charaInner.is_chara-31 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DUn7Ug9UQAE_9Mf.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'あこ';
+}
+/* 小春 */
+.charaCol ul .charaInner.is_chara-32 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/7a/a3/d5/7aa3d596f46c568c7e3d6c1a9de448da.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '小春';
+}
+/* ひめ */
+.charaCol ul .charaInner.is_chara-33 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DZrysmrVwAAS8cY.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ひめ';
+}
+/* ツバサ */
+.charaCol ul .charaInner.is_chara-34 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/7a/a3/d5/7aa3d596f46c568c7e3d6c1a9de448da.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ツバサ';
+}
+/* 夜空 */
+.charaCol ul .charaInner.is_chara-35 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/Dm5bQqMU8AE19zG.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '夜空';
+}
+/* ゆず */
+.charaCol ul .charaInner.is_chara-36 .charaImgCol::before {
+  background: url('https://s3-ap-northeast-1.amazonaws.com/cdn.bibi-star.jp/production/imgs/images/000/420/751/lqip.jpg?1572318032') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ゆず';
+}
+/* リリィ */
+.charaCol ul .charaInner.is_chara-37 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/7a/a3/d5/7aa3d596f46c568c7e3d6c1a9de448da.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'リリィ';
+}
+/* 欠番 */
+.charaCol ul .charaInner.is_chara-38 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_38.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* エルザ */
+.charaCol ul .charaInner.is_chara-39 .charaImgCol::before {
+  background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhMWFRUVGRcYGBYXFRcXFRgXGBgXGBcXGBcYHSggGBolHRYVIjEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lICUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAQMAwgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYBBwj/xAA/EAABAwIEBAMFBgQGAQUAAAABAgMRACEEBRIxBkFRYRMicTKBkaGxB0JSwdHwFCNicjOCkqLh8RUkQ1Oywv/EABoBAAIDAQEAAAAAAAAAAAAAAAADAQIEBQb/xAAtEQACAgEEAQEGBwEBAAAAAAAAAQIRAwQSITFBURMiMmGB8AUUI3GRocGxQv/aAAwDAQACEQMRAD8A9xooooAKKKKACiiigAooooAKKKKACiiigArhrtcNAFdjcboWBpJmLzaJg++/zrLPmSSee/a9aLPhKFWmBtHeT9Ky60OiToEADmlMnqkE35GrwNulyrH35LjKFPwBKdAiBAJIJN9QPKDM9quy5Kaq8lX4bYDqkAmSDrSQJ5EiATc7dffT77xUk6Ftk2gySncT7M8qTJ8im90myDmrykgkKMC0CYvp3Hvq2yUHwkkze9+nKKrkplYClAkq1ElJAMEcj6C3LvWgSKnHK1RbLNezUa+Z1IpdcFdqxlCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK4a7XDQBi+MMYQ4U9hzV6zAMTyrNtO6kLNgpEFI8IL1kk2JVMfvpWq4ozBltZCmEuKKdzA39xms23xT4YCUMNiO6jz+VPV7eEBxh7GiBpcAKTpCYbuAVBWwmJ257biKlN5JjHGlpcQorJTocW8SlKR7Q0pKiZBjbkegmI7x5iPuoaTH9Kz9VVDf42xireIEjshH5g1XbP0SJtFhlXDeIDiQptogLSolWoTpmUzpnSZuIvFenNJgATMDfme9YLIcFicQUO/xyVpCgVpQVAgWMRpTflcfGt+KW91+8TKvB2iiioKhRRSVGgDs12ohxg6UUn8xj9S/s5ehLooopxQKKKKACiiigAooooAKKKKACiikqNAHSagYjM20zeYtIkiekjnUbM8ZEgkBPcwT3PQdqxOc56V/ymZCdrbmmQhYMVxRnSHTsVFNh90D3b/Ssm6asFMgAyZP+0fqf3eoD3batK44RFEZQppVPLqOuosCxyrFKQsKQopUNiDBr03JuLm1JSl46V9YlJ7225T6146HIqaxj4NLlBMse9MPpWNSVBQ6ggj5U7Xj3DvE62HZmUKjWnqOo7ifyr1vDvpWkLQQUqEgjYg0iSphQ6TUDFvzYe+l4vERYb1Amudq9R/4j9TRix+Wdmik0VzrNNF5Ndmoz7sR3NL8YTFehOdQ9RSQaVQQFFFFABRRRQAUUUUAcJqjzvMtFpgCZPUj8h9fQipWd5kGUf1KmO3VXurzTNs0KzvamQhZPQ7m+aqdUQJgmw6+tQnFhvyi6+Z6dv3/AMUwF6Rq+8duw7d6h+IOd/z99P6KknVNzf6T+dQ33b/nSXn6iLcoJHHHeQpBXak6YEmmlO0AjixXKA5TykiP3++lVbJSGm3DNejfZ7xFCV4ZVyPMjsD7Y+MH3mvOoH79Kl5DjPDxDS+igD6K8p+RNIzJuDrsZBK+T2fVN6JppBtSprzTZuoVNdpFFQTRZ4ggQTyn8qgF+TRmLxsO0n31VuYrT6/lXooxc5UjFxGNssMLjF/xGibHl2j/AIq/TWV4Zc8V9xzoPrYfIGtUKZJU6Es7RRRVSAorgNdoAKQ4oASbAXNKJrH8bcQBCSy2fMfaPQfh9alK3QGc4pzrxHFQbbDsBsPz99ZwKvemXnpNMvOwIrWlSohuxT+I1HtSddRkGa66v4ChgC3KG+p5UykSaHXOQ2qCTj7xJ+lLwWEU4qEiwuT0pppoqUEgSTYVq8Rhk4fDFI9pViepO59IpU51wMhGzIOkA2oLtqZdXJJ60gqqxUf8WhC71HSqltm9UkWR7vhFyhJ6pB+VPzUbBCEJHQD6VIrysuzoiqKTNFQAjHOgalHYSfQf9VlMXmEgqB327dKm8VZhAS0kiT5lDnpBgfEj/b3rIPYgkx0r1mnjUdz8nOyu3R6dwPhtOH1ndxRPuT5R8wr41pKx3CfFTCkIYX/KUkBIk+VUCN+Sj3+NbAGlzu+RZ2iiiqgFcJrhVVFxNm3gtSFRqsCPaP8Ab+p+dSlYEXiviQMpKGz59ir8PYf1fSvLsbiyokk0vMsaVqJPw/e9VTrtaYRSIbHFOXph5y8UgOURzqzYJDqTA7n6UyVT6CuLXP75Ugr/AOP1qCRa3IEc+f6U3NJS0tRsDV3kOVpWdTh5wE86XKaReMWy54UytAHiKI1cu1ReNsRB0jl9TUzEYQAeRSkxWOzfELKglZnc/wDfwpEVulY6XuxohaqSo0maSDWgQOAU7hRKgOsUwTVjw8x4mIZT1Wn4A3+QNKySqLZePLR7ekUumxSpryrOkKmik0VAUZjNMl/iCt1E+JAjSfL7I0Ce4i9YtUiJ3IkjmLmx6H9a9S4JxSSC0fbb26qbJ27wT8xWN+0DKvAxJUB5HZWD3J84+Jn0UK9Zil4Zy5qnRQpXWo4e4vdYhC/5jXQnzJH9J5eht6VjwakMX7W+NOdPsWe3ZVmzOITqaUD1Gyk/3Dl9KfxOKSiJ3OwG5rxrBPraUFtlSVD7wMfqAO1ajDcUe04+CVQNIEBJ9Z2HPbr2hOxWWpmrzLOEtI1LueSQfzP19K8w4gzZbyytZ/QDoOgrma50p0lSj6Dkkfv971n8Q6ST+/jTIxSA489NQ3V3oWuozi70wq0SEnlTuJcuRUfDuAKSVRAIJkEiBeCBv+9qbedBJI2JMDoJsKo+yw6VTWmyDhwujUoW+tUmR4XWsWsL/pXq+VshDaU9B86z5sjXCNGHHfLMxjcmABAH5Vj8Xglh4oCVAmNMSZ226nevXMRhwarHcFe2/UWPxFKhlaGzx2jPOYJbLgaUrUFJkSZKSPaTPMXt6/GjzPIH1uEoTIi1a/8A8cfECySYmxvvHPflVzgmKHkp2iNlqmeOZhlrzNnG1J7kW+ItUWa9lzrENoSSuAkC87V53mjKX0uOsMrCUHzKhIERM6ZmLdJ7U2GVy7QmWNLyZ6a232bZYVOl8jytiB/eoR8kz8RWQweGUtYSkSSYAr2bIsvDDKGhyuT1Udz++lY9fn2Q2rtjMELdlqK7SRXa4RtO12uTRUAZXE5mhlaXkkoUk/eSoBU7pJjYifryrV5tgGsxwqShXtALaX0JEQe24Pp2rzhl/GYww23qTJCQpKVlUSCoawQlMiNRgWiZkVqeG1pbWjCBxTjoWdSGZRh2okq1K0+ZUhW0Am1tz6mMdq7MGet1Lmjz+dJKSDG24kHtb5bH4ESMO2VcwecT+W01quKcxZDpYYw7SAgkLUWm5K+xg2sL2JqpwiVJMrCUhVxCAieVogfCnXxYlIaS2kQNv3POqvMcVextyq0zPEJF9cETYAahWVxSwT7cnukD5i9ES8lQ+HSoxT2IbhMRUTCGDPS0z2PP41PxeJQUwhPmHPl7+/061aylFM4q5qIpd6feMGOn1qEVXqxVkhRm1OpaMi3f4U00Lj99K0WDwo1Jnnb40qU6GRjZP4Owv3u9egMGs9lmHCAABAq7w6qxzlbNkFSLCKacQK6F1BcfJXp2qnRZ8kkNA1LYZgUxhkX3qaswmq2R0ZfPcsS+IWJEzE8+vrVNmLC2cMtCdIaSCSAPMq2xPOYArZuNzWe4jZL+nCI3WQpw/gaSZn1UoAAc4V0q7ybVb6KuNlR9nmSWOJcFzZE9Bur4j/bW9TTOGZShIQkQlIAAHIAQKeFcTPmeWbkx0I7VQ4K7NJBrtJsuKopM0UWBWt5gnCMocWVrgBDDSSW0LMaQG2gJLYn21yTuBcS19omdv4VbC2nSgrCiW4SR5dNza/tQZ6WqiwPHGEWpCly2tPsqcbSsJNkJKSAdFoVACQCDc87XO2mMxShRWFFAVpWypJIBjyrBlJBUhVzp3AG9em9ptfvKjl7b6Ij+YYZeC/j8Rh0eMpRSIK0JdggFekGDz3m6TesJm/Erzy5B0jZKUgBKRsEpA2EAD3VacY5LjY1lzx22xA0pCVNoTA/wUiEJuD5Ztc2qhylge0d/pTIuNbh2HDLJLbEaUy8q5n3/AKHamFYde2kntE/KtKG6bcZkEVPtjpP8KVd8mZDpFWGWYxEw4Y6GOdQs1biFCx2UO4tIqtLsXFOTs5GTHLG6Zc50AHIGxvv67/WqlBlVC8UpZ80qNPNtaRKtzyqboXVk3L2tSo6CtkjDWEcqouGMPqkn19d/0raYdm1ZckuTRBcDuCckCpS8ToEnb0J+QqvZGlUcjtU4iRSGOJ2AxyVgFJkHnXMdh9RkGDWbeZW0ols6Zv8A0zzkfnUzC5y4DDqfeP3Bo2+Rux1aLHAeKhVzqHLrVyXZFVTGPSRIB+H57Vl84431OBjBwtZMeJuhM/h/Ge+3reooW3XZtn3eQ3prCYcImLkmVKO6j1P7sAALCouVNFKBqJUo3KjuT1qwFcfUZ3N14HpULFKpANdFZiaFg0qaQDXZqAFTRSdVFRZJ8/TSm3SkhSSQoXBBgg7ggi4NhSAaSVV7U45seF+MFIUG8UrU3aFquptSSkpJMEqT5B3BgzanuMMmVhycQ0P5cgLSBAQonSCPKkaVEbDYkclJjClVegcC5yl5s4N8BZAIQCB5m486PZ3Cdd5mFdiay5YbXvj9R+DM4S4KnAY8KEG1ThUxxGHy9jENmC462tLat1q1ah7gmySbCQTG1ZTAZkZgmq0mrR6HTavfxJfUZ4ldCFlMe0Ar47/MGqnW2oDcGL9CetW/F7cpbdHdB+o//VUWCa1Gn4/hOL+IJrUST+hNbWhO30ppx+bCorjlyOk/KlNX2q5is33BbX8oK6zHuJH5GtjhkWrG/Z+2tTTkQQ2tMpmFBK481902X763TKRWPImmaYNNEfFNAJJUYAvPSKYy3FpcSCDY13PFAoKTtua88xmbOYZ5laSUtqAKhY6m9cm20wSRMG/Sqxju4LOW1Wz1JWECqhZilvDtqdeXoQnc9egA5k8gKx7f2mkJthpPKXbR1Pk+XzrI57nWJxzgLkmPYbQDpTPQcz/UZPutV445eSHnpe6TuI+KnMVLaJbZ2DYN1Dq4R7R7beu9aL7OsmuXljkAnbfmfgY+PSqXh3hZxSgXfIN453kD6V6dl2FS2AlIsBWPW6iKj7OBfDjbe6RZNU8DTCaeFcVmoWK7NIBomqgLmuzSJomgmhVFJmioCj5711zVTQVTjDS1qCEJUtR2SlJUo+gFzXtujiippzDYlTa0uIMKSQoHuPy6ivSsP9lzXgp8R5wPkAq0lBbCouANMlM855ctqiZh9mqG8K44H3FvNoUuAgBtWkTpSiCqTEA6j6cqz/mcb4GezZLxfh5ngwtEB1MkAkeVwe0kyqyVR/vbJ2IrEtZUo3Bi5EG0EGCk9CDYjtXeDs//AIV8FSj4S/Ku5gTs5E/dMTz06gOVaXjTDKYnEs+y5Ac3gLIhLkHeU2P9SZ+8aW4uEtq6fRu0eohF/qdGPzt8hvwCZKValHvBAHzPyrvDSPa/fSxqnxC6v+Fm4SVdSYP+n9DWitqM2bK803J/aKbFsQ6v+4/O9WnDWHCtVio2CQBJJOrYD0pnPD/PUesfSKsOEXCHClJhSog7QLpUbdAo/Cok+BcVyWnCJUxjdKhpS8mAjcEyFJBjYgT3Gra9b1buhRSfUdxyNYbNm0I8BaQoqQ6PFc1AGFHSQgAmxCkme3Sa3eWY5KifGEpbN1AEkFU2SYsRCRMyYO8A1myc0Oj7rZmuJcZqAZRJUsgWuYJvEc6w3GWJaXidLQIS0A2ZggqSSFERyt8q9S4mxmHbS5iW0jxdH8vWdhIAISfaV50n0gzArxbCs63EI/EpKf8AUQPzq+KPNlMk74LTCZQV+HsPEVpSOcC6lH0F69JyXIWxskBCZAI9oqFiueZkc+lZpKpxTnhmCw2lKBEgKVGn0uo1tsG0pKAkXCRHeAOZq8pFEuTjOFSlZjt+dT0JqLhjN+8fAAflUwV53O/1GdKPSHE04DTQNLBrMy45NE0iaJqrAXNdmm5rs1BIuaKRNFQB86pNes/Ylh0lGJXoOrUlHiWjTpB0AzuCZPqn3eQJWa3P2acYOYd1OG0623lpSEyElC1qCdQMXBkSD0kdD7HPFuDSONBqz2lShEnfny5WF6YxSm0tLLqglASdRUYSBp80k8onenXXABM235W9/SvHftL4uS+U4fDuEtIkuFJ8jipGkSPaSmCehKgb6Qa52LG5yo0ykkjFYnSlagglSQohKjuUgkJJ7kQffW8zTEhOTYfVYqCEC0GEr1DntpbPbbtWHynLHcS54bQ/uUR5UD8Sjy9OcWq04lzRLymsMwf5DADaCTZZFi4e1t/U866E1uaXoZ0ZzEOQqOlbDhofyQfX6mff/wAVnMVk7urSUwRAKpBTy3M239eu1bTKWkoZQgcx68yQLb2q0uUWg6ZnOIFguAjpBrmXvBt1tZNj7Ub6VSlXyvSuJMNoUOpKgZ7EiP8AbM96dVhgcKHFDSQPKo21Er9nvYm3KCdporghy5tGq4yGtoaYhABiQEyVoTaefperPLsSpS/CCyGisByxACphSo/CAbT0rzoZovTokkCDcykgX9k9wDU3F8WLQUnDE+ZtHihdwHPvhOnTKZg3m/M2qkYKmmr9P6/wfHJBXu9OP3NXxzjAU+EnSUJWpSDphUKvBJvIEC0DyjeJrzQO6VJV+FQ+ShSMXmb6ydS1Gb3Nvd0HYUj+GWUiB7R8vUxE/UGrRjtQhyUujTYF8FxSkq9someqIIjmBIFq32SZw5spMjqDBrBcN4MKWEHyqAuDueXw71scEyvDK83mZUfaO7ZPJX9HQ8tqRNm3HBNco0mXA+GnV7RufU3NSxTLREW2p4Vws+Nxk7NAqa7NImuzWZkiwaJpFdmqEi5rs0ia7U0B2aK5NcooD5yJihDkEKSSFC4UCQQRsQRcGn8C0lShrKgj7xSAVR2BIE2/e1WiMMh1xppLYbSrSNgVwJ1KK4lRsu+1hYARXsZTSOXi08prd0imfxLjqpcWp1VhK1KcV2Eqk+6rvEcLPso8XFJLTfUQsi8bJPLnWqazLLmv/SBxfkVbxRKEOJMylcDTCpubb3isvxDmONw770uEIfskkBaVNQQgJKgdJCTBiDc9QaSsjk6XASx7ex5XE7DDH8Nhm1EG7i1QCpRFybTMW2AAFutV+FRiXyhTWHUEBaTqbaVpkKES5EWPpEdqt+HHMO7htDmEBSwdWpCQpx1UalCQkKk6Up0yRCxOwNIT9oeJK0hDTQRKQlsAzGwSFSBMWB0x2oV29q/kne1HbfBL8ErWlKJJ2IPYkKJHJO1vd1ixwmJbRq8NJWURK906zI0t2iBpUSrlYCZkUvF+fJeK22j5ShAJA8qlBUkQN4ASAbxcDnOfwWYuMA+EookDUISuVCfNpWCAq8T0t1psZWhLVFvxVqWWQbqJctbY+HHukLvtv0NZ9Yg7X2PuPX1rSv5nh/GaUyXHV7uvvgWEEaUNiyQJn3WmaMDlTmYYkltEAXWsJi0zJjdRqFN30Tt4OZXkyPDGIxSyhgwPIJcUSTCUiDcgKOxsNuYr+LcvRh8W8y0SpCFQkneCAYPUgkj3V7Xl3CbLuEbS+fKjzSCUqSqNJ8wIIIum2wFUPEfCmWteRplx1xQlR8RxRAMnVIuSSedj3peJzlK/6DJKMVyeOsNKVCQCpStgASo87AXNarLspKYSUkupub2EgkpHxE9xz3r0bMFYfA4VlrCYdPiYohsFUBRFgorVGpQvEDrvzrD4TM1oxzq1NueC4shK9CtA0kp1TEaSQZPv5VbI3tv16+ZfDSkXOT4Bt9IJsROlQspBG/pcQUnpBrQ4LUJaeAKo6eVadtQB+Y5T6E14wCws4jDAajBcamEuDbUOSXB12Ox5EXmHdQ8kKi46iFJIsQQbg7gisjOh0IwuG0WBlPIHkOk8xUxNNi0issrPCzmZZWf5bqUAT91y+lX+b2T/AJelZ9RieSDrxyDmo1Zrq7XKK4ww7XaSK6KCTopVJFSsPhibmwpkMcpukRKSXZHoq1GHT0FFa/yMvVCvbo8Wf4d8N1Lfhy0tS2ErCplafIpwQZMKSo3EEAjlaJkudsMj+cwVut6vBWCBGqSULk+zqKoME+ZVarLsQ2HDiHAVqbU+00kafbdxikA+YwLOjf8AEfWvOM8wimXVtG+g6Z6iAQT3IINdZPfwxtqXH390XeeZxhHsKEoSpLxXrKNPsrUZcX4nNJuI7psItTZbnjrKfD8jrR/9p1PiNf6Zt7iKrU0KFMUUuCFjjVGga4leLjOnwWWwoAttthDUKUNSjJ9+8fOaTMSlx9xaLBSlG219z2m599cC7V3CIBuedWjS5EZMCcko+SdleCeUsFkpT4Y1KWsgIRylRIMgm0QZ6VouL/BbbbWcOz/FOf4gJUqIHt6dQ3O2oTe+xBdyXh5tbOh8lJcOtCPECVLAE+xEkCJ+dt6x+ZqSHXNKYCVFIBJJsdNySTy6mwqie+f7CMsVG6JWQ5Yt91LSTBXcnkANyewr2DO8mVhMIwzhEOpClStbYOuQN1qSOZPO1gOlYP7HcKXMapRuENn/AFLUmPklVe8ZrmCWEEm6o8qep2SPeSBTo5FCdtXRmlBzW2PkzX8acO20HF61wFOjfw1wIcV0GwI98G9VOX45D2IC3HUAOK80pIGhKbJLkwCOnVVt5qixOJdeLi1OKgFfmRYFWuNcTsCQnntsYmpDDpZhseIi4PmN3EKkmR1BB27g7Ui+W15OzHQY1DbLl/6aDjXHYdoDEICCW2Vw5E6UmAgI5AkqO3IV5njvtDCEeHhWoAEJW5uItOgb9d/XpU77Tc0Aw7bIPndIcX/an2QRy85m/Q9K81CQSJMDmeg61KxRypSnzXRy5SeOTjE9M4L4ldQttnFXU8Cttdp5q0rAtceYEciBW9CgSVDc/OvLeK4Ycwzp+4r2QfMUaW5j3CJ28wvV/lXE6kqLLw8yTGseyoclRykQffVHHcrQ/Hkr3WbY9TXkHH+NCsY5p+4EJnuAFSCO6o91b7NuJmmWytah2APmUegrx3EPqcWpxXtLJUelzMDtyHpTMUPIvPPwe38KZt/E4Vt0+37K/wC9NiffZX+aresF9lWoNPT7OpEf3aTq+Wit3qrz+qxqGaUUbcUnKCbFilAVxlBUbVY4dkJ9aMOnlkfyCc1ERhsLzV8P1qbSQa7NdXHjjBVEyyk5dnaKKKYVPGuDMO7im8U2R5VQrXMaXVyRAmTdKVCNtPcVkc4W8t1wvz4uqFkgA6gAItbYDbkKm5ZjkDDYhlaynXocRAPmcbJhJgWmRcwPL1iuhw4lCiokutJkq/8AkaTF1HmtEi+5Sf6aalUmzeviKWLbUinn1daaSmmDPIJTT2CXpiRI5jr1FJ0x7qsMr8NJW66guISkkJnSFLtpSpQ5bmOYB6QYfQnL7klM1mDbaxmK/jG2HwGbqUbhakIKEssJSYMm5MxbYajXnuOcUpSlEQVLUojoSZI9xMVps5y/FOtLxCn2QcOhtZwzKijwG1wU6QLA3EiSe5sKzRBUL77+/nRiVHNm7PVPsSwmlp98C6lpbB7ITqn4ufLtWk4vxqk65ulKUqJkzvKEJ7mBforrUjgHJFsZc0nSfEjWoWspw6iD/bIHuqFnjKlqUFALC0kkBWmdJCdSCZEi3a3cVmm7yc/Q2aKMdyszjeFUkLC7eGm9+a1E7cyAdh361110BJdcOlDUEqVvtYc5JMeUdANyauMMpawPEBSmSHICUk6SR4aTdQ+7eOveqjibIl4tYh1LTKf8NlDXlTaJJ1DUrv3PUkzLLCPEnRvz6iSW2Ktnm+fZkrEvKdV0CUj8KEiEp9dye5JqAWwbV6Nhfs/a3ceWeoSkJ+Z1VqMsypphvwkDyTJCjqk953onr8UFUeTkLTTk7Z5G63i3m2ytLi22hpQrQSEpMW1AXHlG9WOVYovNhoFIfbADSlWS4gbNKNgFj7p6WPUetTUHG5Nh3TLjKFH8WmFf6hB+dZl+Ip9x/gb+Va6Z4tjvF8RXjatYMKCgQU9tJ9n0pTSOm9ew4vhzDuoCHEFYSISSpRWkdA4TqjsSR2qBlHBLDLwdClr03QlWmArkSQPNHLa9aF+IY2vmKemlZacL5b/D4dDZ9s+Zf9yrke4Qn/LV9h8OVXNhSsPhevwqckVjx6Zzk55PJplkUVtiDSALCnQaQK6DW5KlSM7YsGlTTc0krqaIHtVFRfHHUUUUB84qTWn4JzfDMLIdaJcWSlLkykBekaVpJjTNyY5/DuH4WIwIxbyyglzR4S0FCo1aRBJkn722wPSqTF4AoJkSnqOnemupKjoQXtIWiw4uUhTmhrCDDlnV42lUyVKSArYeSSkJt98WFqztbDLeIyhtSXWEYkFCmwpR0vBCvulcErT8+9ZNpskhIBKiQAAJJJsABzM1EOFTJSceGS8lwQefaaKgkOLCSokCJ7nn0HMwOdaNJw6MYvLmWLqJaW9iHimdIKtYbA08vLzVqjZRqTh+EkDDI1sBbp1eMHHyyUpny+HolMxvrjbuQKnijGYXwMO2/oxeMSgpeeZdIhKT/LCnNJS6sCASQdjfaapqUuPv5mTU5W+F1/0sMZmDeDQjxUqbdckrw7QwjkhBAQXlrQojVJgSYg1UcM5IrH4lwstBtoeYoBkJmyUJNrkg8gAJ7A0mQ5E5i3g0wne5J9lCPxLIA+lzsK91yzAtZbh0sMf4hjzEErUtUAqIAvytsAntVpbcfnkyxUpvgey7NXsE0cPiyFJA8j2qFaTaHAo7jbVMG2+9Vz2ZrcXqSNDaRAKgQpQsfYsdxuojayeZjZnLaDiHpJBEFQGoKIIAF48Q3vyE7JEVEwuKLgCuXIdKy5sjrcl8jbixKCsslOFRk/8AHupSabRTormSdjhQNLBpsUulkiprs0iadaZJ9KtDG5ukQ5Jdi2kE7VYYdgD9aSymBFSU10sOnjDl9mWeRsWkUsUgV2a0ihVcKqQpdVWY5wlEgeZXQbD1P5VIFi/iUpEqIA71nsfnSlnS3IHX7x9On1qKlt3EKk3/APqPQVf5flKG7m571Ki2DaRnf/HOG+k3rlbWKKnZEjfIrMAhOLGKbxKEOoQ+6hKVISQEpUoJAtuIF968gxai3iXW0EhLbqkJEkkJBsCTdXqSaKKTg+KSNWmbU0M5w2ErGkRIkxtPpyqXwguMdhyInUvcA7NuRv6CiinT+Fm/P5PRcZlDDWGxeKbaQl/wXpc0iTIKyVA2UdSQbg14GBRRVdG7Ts4moVNH0J9m+Vsoy5pSUAKcShSyJlSlC5J/ccqnIYTKjAkTB96kz6wI+PU0UUnUdj9N5M3xJ/OznC4F3zYbS2vw9vOpLwKtQhUm3PlUXLEBJcSNkuuJA6AGwooqdUv00W0zdS+happwV2iuSzSgrtFFUAdZF6nIFcorpaVe4Z83Y+mn00UVrEnaCa5RViCn4hfUlKdJIkwY6R1qly9sFcESK7RQviJfwmwYbCQABFOUUUxiUFFFFQWP/9k=')
+    0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'エルザ';
+}
+/* きらら */
+.charaCol ul .charaInner.is_chara-40 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/Dm5bQqMU8AE19zG.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'きらら';
+}
+/* レイ */
+.charaCol ul .charaInner.is_chara-41 .charaImgCol::before {
+  background: url('https://i.pinimg.com/originals/5c/27/4c/5c274c4041ac6b9ee241eff0b29b7388.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'レイ';
+}
+/* アリア */
+.charaCol ul .charaInner.is_chara-42 .charaImgCol::before {
+  background: url('https://pbs.twimg.com/media/DZrysmrVwAAS8cY.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'アリア';
+}
+.charaCol ul .charaInner.is_chara-43 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_43.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-44 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_44.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-45 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_45.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-46 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_46.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-47 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_47.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-48 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_48.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-49 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_49.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-50 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_50.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-51 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_51.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-52 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_52.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-53 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_53.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-54 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_54.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* わかば */
+.charaCol ul .charaInner.is_chara-55 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_55.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* 欠番 */
+.charaCol ul .charaInner.is_chara-56 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_56.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* らき */
+.charaCol ul .charaInner.is_chara-57 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_57.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '逢来りん';
+}
+/* ノエル */
+.charaCol ul .charaInner.is_chara-58 .charaImgCol::before {
+  background: url('https://d1bxqgdk88uwr3.cloudfront.net/wp-content/uploads/2020/03/09111247/img_207494_11.jpg') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ノエル';
+}
+.charaCol ul .chara_period {
+  padding-top: 2.5%;
+  width: 77%;
+}
+@media (min-width: 801px) {
+  .pagenavCol li a:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.15s;
+  }
+  .pagenavCol.btn5 li {
+    width: 17%;
+  }
+  .pagenavCol.btn5 li :last-child {
+    margin-top: 0;
+  }
+  .news002 .pagenavCol {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .reCol .coordinateChara {
+    margin: 0 auto 0 -50px;
+  }
+  .reCol .coordinateTitle {
+    width: 600px;
+  }
+  .reCol .coordinateComment {
+    width: 600px;
+  }
+  .codeAnime .coordinateComment {
+    margin: 130px auto 0;
+  }
+  .codeAnime .card3Col .coordinateComment {
+    margin: 40px auto 0;
+  }
+  .storyCol {
+    width: auto;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+  }
+  .news_pvCol.mvBg {
+    margin-top: -600px;
+  }
+}
+
+/*# sourceMappingURL=maps/news.css.map */

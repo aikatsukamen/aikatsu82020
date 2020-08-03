@@ -1,0 +1,1060 @@
+.coordinateCol {
+  background: #dddddd;
+  width: 85.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4.16vw;
+  border-radius: 2.5vw;
+  overflow: hidden;
+}
+.coordinateCol::after {
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+@media (min-width: 801px) {
+  .coordinateCol {
+    border-radius: 18px;
+    width: 1026px;
+    padding: 40px;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateInner {
+    width: 946px;
+    margin: 0;
+    text-align: center;
+  }
+}
+.coordinateTitle {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #666666;
+  border-radius: 1.75vw 1.75vw 0 0;
+}
+.coordinateTitle img {
+  width: 100%;
+}
+@media (min-width: 801px) {
+  .coordinateTitle {
+    height: 115px;
+    border-radius: 14px;
+    float: right;
+    width: 546px;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateTitle_1col {
+    width: 100%;
+  }
+}
+.coordinateCol_cute {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_cute.png);
+}
+.coordinateCol_cute .coordinateTitle {
+  background: #ff8ec1;
+}
+.coordinateCol_cool {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_cool.png);
+}
+.coordinateCol_cool .coordinateTitle {
+  background: #6dbfff;
+}
+.coordinateCol_sexy {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_sexy.png);
+}
+.coordinateCol_sexy .coordinateTitle {
+  background: #b383f3;
+}
+.coordinateCol_pop {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_pop.png);
+}
+.coordinateCol_pop .coordinateTitle {
+  background: #fed700;
+}
+.coordinateCol_other {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_check_other.png);
+}
+.coordinateCol_other .coordinateTitle {
+  background: #ffa56d;
+}
+.coordinateInfo::after {
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.mainDate {
+  float: left;
+}
+.subDate {
+  float: right;
+}
+@media (min-width: 801px) {
+  .subDate {
+    width: 546px;
+  }
+}
+.dateCol {
+  width: 85.5vw;
+}
+@media (min-width: 801px) {
+  .dateCol {
+    width: 946px;
+    margin: 0;
+  }
+}
+@media (max-width: 800px) {
+  .dateCol.coordinateCommentCard3 {
+    height: 0;
+  }
+}
+.coordinateChara {
+  float: left;
+  width: 45%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto 3.33vw;
+  padding-top: 2vw;
+}
+@media (max-width: 800px) {
+  .coordinateChara img {
+    max-height: 67.5vw;
+    width: auto;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateChara {
+    float: left;
+    height: auto;
+    width: 390px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  .coordinateChara img {
+    max-height: 592px;
+    width: auto;
+  }
+}
+.coordinateBrand {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  float: right;
+  width: 55%;
+  height: 42.5vw;
+  margin: 0 auto 3.33vw;
+}
+@media (max-width: 800px) {
+  .coordinateBrand {
+    padding: 0 3.5vw 0 0;
+    box-sizing: border-box;
+  }
+  .coordinateBrand img {
+    width: 80%;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateBrand {
+    width: 546px;
+    height: 230px;
+    text-align: center;
+    margin: 40px auto 0;
+  }
+  .coordinateBrand img {
+    max-height: 220px;
+  }
+}
+.coordinateComment {
+  float: right;
+  width: 55%;
+  margin: 0 auto 4vw;
+}
+@media (max-width: 800px) {
+  .coordinateComment {
+    text-align: left;
+  }
+  .coordinateComment img {
+    width: 90%;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateComment {
+    width: 546px;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .coordinateComment img {
+    width: 60%;
+  }
+}
+.coordinateCommentCard3 {
+  float: right;
+  width: 55%;
+  margin: 0 auto 0;
+}
+@media (max-width: 800px) {
+  .coordinateCommentCard3 {
+    text-align: left;
+  }
+  .coordinateCommentCard3 img {
+    width: 90%;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateCommentCard3 {
+    width: 546px;
+    margin: 40px auto 20px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .coordinateCommentCard3 img {
+    width: 60%;
+  }
+}
+.coordinateCardCol {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.coordinateCardCol img {
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  display: block;
+  width: 36.66vw;
+  height: auto;
+  margin-bottom: 3.33vw;
+}
+@media (max-width: 800px) {
+  .coordinateCardCol.dateCol {
+    width: 77vw;
+    margin: 0 auto;
+  }
+  .coordinateCardCol.card_1l img {
+    width: 18vw;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateCardCol {
+    width: 100%;
+    clear: both;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+  .coordinateCardCol img {
+    display: block;
+    width: 220px;
+    margin: 24px 0 0;
+  }
+}
+@media (max-width: 800px) {
+  .coordinateCol.cardOnly {
+    padding-bottom: 0.83vw;
+  }
+}
+@media (max-width: 800px) {
+  .coordinateCol.cardOnly .coordinateCardCol {
+    padding-top: 4.16vw;
+  }
+}
+@media (min-width: 801px) {
+  .coordinateCol.cardOnly .coordinateCardCol img {
+    margin: 0 0 0;
+  }
+}
+@media (max-width: 800px) {
+  .card3Col .coordinateComment {
+    display: -webkit-flex;
+    display: flex;
+    height: 61.58333vw;
+    margin: 4vw auto;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .card3Col .coordinateCardCol {
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 801px) {
+  .card3Col .coordinateTitle {
+    width: 600px;
+  }
+  .card3Col .coordinateChara {
+    margin: 0 auto 0 -60px;
+  }
+  .card3Col .coordinateComment {
+    width: 600px;
+  }
+  .card3Col .coordinateCardCol {
+    clear: none;
+    display: block;
+    text-align: right;
+    float: right;
+    width: 64%;
+  }
+  .card3Col .coordinateCardCol img {
+    display: inline-block;
+    width: 190px;
+    margin: 24px 0 0;
+  }
+  .card3Col .coordinateCardCol img + img {
+    margin-left: 10px;
+  }
+}
+.pvCol_inner {
+  margin: 0 auto;
+  background: url('https://www.aikatsu.com/onparade/images/movie/img_mvmain_bg.png') no-repeat center top;
+  background-size: contain;
+  padding: 0 2vw;
+}
+@media (max-width: 800px) {
+  .pvCol_inner {
+    padding: 2.5vw 2vw 3vw;
+  }
+}
+.pvCol_inner iframe {
+  width: 74vw;
+  height: 41.8vw;
+  border: none;
+  border-radius: 8px;
+}
+@media (min-width: 801px) {
+  .pvCol_inner {
+    margin: 0 auto;
+    padding: 27px 0 0;
+    width: 100%;
+    height: 574px;
+  }
+  .pvCol_inner iframe {
+    margin: 0 auto;
+    width: 890px;
+    height: 500px;
+    border-radius: 16px;
+  }
+}
+.pagenavCol {
+  text-align: center;
+  letter-spacing: -0.4em;
+}
+.pagenavCol li {
+  width: 28%;
+  display: inline-block;
+  letter-spacing: normal;
+}
+.pagenavCol li img {
+  width: 100%;
+}
+.pagenavCol li + li {
+  margin-left: 1.5vw;
+}
+.pagenavCol.btn4 li {
+  width: 22%;
+}
+.pagenavCol.btn5 li {
+  width: 28%;
+}
+.pagenavCol.btn5 li :last-child {
+  margin-top: 2vw;
+}
+@media (max-width: 800px) {
+  .codeAnime .coordinateComment {
+    display: -webkit-flex;
+    display: flex;
+    height: 61.58333vw;
+    margin: 4vw auto;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+}
+.storyCol {
+  width: 90%;
+  background: #ff8ec1;
+  border-radius: 1vw;
+  margin-bottom: 2vw;
+}
+.storyCol.txtCenter {
+  text-align: center;
+}
+.coordinateCol_cute .storyCol {
+  background: #ff8ec1;
+}
+.coordinateCol_cool .storyCol {
+  background: #6dbfff;
+}
+.coordinateCol_pop .storyCol {
+  background: #fed700;
+}
+.coordinateCol_sexy .storyCol {
+  background: #b383f3;
+}
+.coordinateCol_other .storyCol {
+  background: #ffa56d;
+}
+.basesizeCol .pvCol_inner {
+  -webkit-transform: scale(0.93);
+  transform: scale(0.93);
+}
+.news_pvCol {
+  position: relative;
+  margin: 0 auto;
+  padding: 0.8em 0;
+}
+@media (max-width: 800px) {
+  .news_pvCol {
+    width: 80.83333vw;
+    right: -0.16667vw;
+  }
+}
+@media (min-width: 801px) {
+  .news_pvCol {
+    width: 970px;
+    right: -2px;
+  }
+  .news_pvCol .news_pvCol_2l {
+    display: -webkit-flex;
+    display: flex;
+    width: 936px;
+    margin: auto;
+  }
+  .news_pvCol .news_pvCol_2l .pvCol_inner {
+    margin: 0 auto;
+    padding: 16px 0 0;
+    width: 50%;
+    height: 287px;
+  }
+  .news_pvCol .news_pvCol_2l .pvCol_inner iframe {
+    margin: 0 auto;
+    width: 440px;
+    height: 245px;
+    border-radius: 16px;
+  }
+}
+.news_pvCol.pink {
+  background: #ffe9f5;
+}
+.news_pvCol.mvBg {
+  margin-top: -51.8vw;
+}
+@media (min-width: 801px) {
+  .newsNavCol5btn a img {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .newsNavCol5btn a img:hover,
+  .newsNavCol5btn a img:focus,
+  .newsNavCol5btn a img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.newsNavCol5btn ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .newsNavCol5btn ul {
+    width: 85vw;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .newsNavCol5btn ul li {
+    padding: 0 0.25vw;
+  }
+}
+@media (min-width: 801px) {
+  .newsNavCol5btn ul li {
+    width: 300px;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+}
+.eventCol {
+  background: #fffeef;
+  border-radius: 2.25vw;
+  padding: 5vw 3vw 3vw;
+  margin: 4.5vw 4.5vw 12.5vw;
+  position: relative;
+}
+.eventCol:last-of-type {
+  margin-bottom: 0;
+}
+.eventCol .event_title {
+  position: absolute;
+  top: -9vw;
+  left: 0;
+  margin: 0 -2.5vw;
+}
+.eventCol .getitem {
+  width: 90%;
+  margin: 2vw auto 0;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  padding: 1.5vw;
+  font-weight: 900;
+  color: #fff;
+  font-size: 2.5vw;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.eventCol .getitem.blue {
+  background: #60c0fa;
+}
+.eventCol .getitem.pink {
+  background: #ff919b;
+}
+.eventCol .getitem.orange {
+  background: #ffaa24;
+}
+.eventCol .getitem.green {
+  background: #8feb26;
+}
+.eventCol .getitem.purple {
+  background: #b383f3;
+}
+.eventCol .itemlist {
+  width: 90%;
+  margin: 1vw auto;
+  background: #fff;
+  border-radius: 1vw;
+  box-sizing: border-box;
+  padding: 1.5vw;
+}
+.eventCol .itemlist dt {
+  font-weight: 900;
+  font-size: 2vw;
+}
+.eventCol .itemlist dd {
+  font-size: 1.75vw;
+}
+.charaCol {
+  margin: 2% auto;
+  width: 90%;
+}
+@media (min-width: 801px) {
+  .charaCol {
+    width: 910px;
+  }
+}
+.charaCol h4 {
+  margin: 0 auto 3.5%;
+}
+.charaCol ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.charaCol ul::before,
+.charaCol ul::after {
+  content: '';
+  display: block;
+  width: 22%;
+}
+.charaCol ul::before {
+  -webkit-order: 1;
+  order: 1;
+}
+.charaCol ul .charaInner {
+  width: 22%;
+  margin: 0 0 3.5%;
+}
+.charaCol ul .charaInner .charaImgCol {
+  width: 100%;
+  padding-top: 131.12%;
+  position: relative;
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/bg_chara.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.charaCol ul .charaInner .charaImgCol::before,
+.charaCol ul .charaInner .charaImgCol::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 131.12%;
+}
+.charaCol ul .charaInner .charaImgCol::after {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/frame_chara.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 3;
+}
+
+/* いちご */
+/* https://www.aikatsu.com/onparade/images/news/045/chara/chara_1.png */
+.charaCol ul .charaInner.is_chara-1 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_1.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'わか';
+}
+/* あおい */
+.charaCol ul .charaInner.is_chara-2 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_2.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ふうり';
+}
+/* 蘭 */
+.charaCol ul .charaInner.is_chara-3 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_3.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ゆな';
+}
+/* おとめ */
+.charaCol ul .charaInner.is_chara-4 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_4.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'れみ';
+}
+/* ユリカ */
+.charaCol ul .charaInner.is_chara-5 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_5.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'れみ';
+}
+/* さくら */
+.charaCol ul .charaInner.is_chara-6 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_6.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'えり';
+}
+/* かえで */
+.charaCol ul .charaInner.is_chara-7 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_7.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ゆな';
+}
+/* しおん */
+.charaCol ul .charaInner.is_chara-8 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_8.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ゆな';
+}
+.charaCol ul .charaInner.is_chara-9 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_9.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* セイラ */
+.charaCol ul .charaInner.is_chara-10 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_10.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ふうり';
+}
+/* きい */
+.charaCol ul .charaInner.is_chara-11 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_11.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ゆな';
+}
+/* そら */
+.charaCol ul .charaInner.is_chara-12 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_12.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'えり';
+}
+/* マリア */
+.charaCol ul .charaInner.is_chara-13 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_13.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'えり';
+}
+/* 美月 */
+.charaCol ul .charaInner.is_chara-14 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_14.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'りすこ';
+}
+/* みくる */
+.charaCol ul .charaInner.is_chara-15 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_15.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ふうり';
+}
+/* あかり */
+.charaCol ul .charaInner.is_chara-16 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_16.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'るか';
+}
+/* スミレ */
+.charaCol ul .charaInner.is_chara-17 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_17.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'りえ';
+}
+/* ひなき */
+.charaCol ul .charaInner.is_chara-18 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_18.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みき';
+}
+/* 紅林 */
+.charaCol ul .charaInner.is_chara-19 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_19.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みほ';
+}
+/* 凛 */
+.charaCol ul .charaInner.is_chara-20 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_20.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ななせ';
+}
+/* まどか */
+.charaCol ul .charaInner.is_chara-21 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_21.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'かな';
+}
+.charaCol ul .charaInner.is_chara-22 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_22.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* みやび */
+.charaCol ul .charaInner.is_chara-23 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_23.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'れみ';
+}
+/* ここね */
+.charaCol ul .charaInner.is_chara-24 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_24.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'えり';
+}
+/* のの */
+.charaCol ul .charaInner.is_chara-25 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_25.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みほ';
+}
+/* リサ */
+.charaCol ul .charaInner.is_chara-26 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_26.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ななせ';
+}
+/* ニーナ */
+.charaCol ul .charaInner.is_chara-27 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_27.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'かな';
+}
+/* ゆめ */
+.charaCol ul .charaInner.is_chara-28 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_28.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'せな';
+}
+/* ローラ */
+.charaCol ul .charaInner.is_chara-29 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_29.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'りえ';
+}
+/* 真昼 */
+.charaCol ul .charaInner.is_chara-30 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_30.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'かな';
+}
+/* あこ */
+.charaCol ul .charaInner.is_chara-31 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_31.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みき';
+}
+/* 小春 */
+.charaCol ul .charaInner.is_chara-32 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_32.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ななせ';
+}
+/* ひめ */
+.charaCol ul .charaInner.is_chara-33 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_33.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'るか';
+}
+/* ツバサ */
+.charaCol ul .charaInner.is_chara-34 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_34.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ななせ';
+}
+/* 夜空 */
+.charaCol ul .charaInner.is_chara-35 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_35.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みほ';
+}
+/* ゆず */
+.charaCol ul .charaInner.is_chara-36 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_36.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'かな';
+}
+/* リリィ */
+.charaCol ul .charaInner.is_chara-37 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_37.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'ななせ';
+}
+/* 欠番 */
+.charaCol ul .charaInner.is_chara-38 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_38.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* エルザ */
+.charaCol ul .charaInner.is_chara-39 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_39.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'りさ';
+}
+/* きらら */
+.charaCol ul .charaInner.is_chara-40 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_40.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'みほ';
+}
+/* レイ */
+.charaCol ul .charaInner.is_chara-41 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_41.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'りえ';
+}
+/* アリア */
+.charaCol ul .charaInner.is_chara-42 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_42.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'るか';
+}
+.charaCol ul .charaInner.is_chara-43 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_43.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-44 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_44.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-45 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_45.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-46 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_46.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-47 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_47.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-48 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_48.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-49 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_49.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-50 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_50.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-51 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_51.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-52 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_52.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-53 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_53.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+.charaCol ul .charaInner.is_chara-54 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_54.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* わかば */
+.charaCol ul .charaInner.is_chara-55 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_55.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* 欠番 */
+.charaCol ul .charaInner.is_chara-56 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_56.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '';
+}
+/* らき */
+.charaCol ul .charaInner.is_chara-57 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_57.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: '逢来りん';
+}
+/* ノエル */
+.charaCol ul .charaInner.is_chara-58 .charaImgCol::before {
+  background: url('https://www.aikatsu.com/onparade/images/news/045/chara/chara_58.png') 0 0 no-repeat;
+  background-size: contain;
+  z-index: 2;
+  content: 'あやね';
+}
+.charaCol ul .chara_period {
+  padding-top: 2.5%;
+  width: 77%;
+}
+@media (min-width: 801px) {
+  .pagenavCol li a:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.15s;
+  }
+  .pagenavCol.btn5 li {
+    width: 17%;
+  }
+  .pagenavCol.btn5 li :last-child {
+    margin-top: 0;
+  }
+  .news002 .pagenavCol {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .reCol .coordinateChara {
+    margin: 0 auto 0 -50px;
+  }
+  .reCol .coordinateTitle {
+    width: 600px;
+  }
+  .reCol .coordinateComment {
+    width: 600px;
+  }
+  .codeAnime .coordinateComment {
+    margin: 130px auto 0;
+  }
+  .codeAnime .card3Col .coordinateComment {
+    margin: 40px auto 0;
+  }
+  .storyCol {
+    width: auto;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+  }
+  .news_pvCol.mvBg {
+    margin-top: -600px;
+  }
+}
+
+/*# sourceMappingURL=maps/news.css.map */

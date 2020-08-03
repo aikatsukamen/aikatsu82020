@@ -1,0 +1,886 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,500,700,800,900');
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: top;
+  border: 0;
+}
+a img {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+abbr,
+acronym {
+  border: 0;
+}
+html {
+  box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+@media (max-width: 800px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+body {
+  font-family: 'M PLUS Rounded 1c', 'ヒラギノ丸ゴ Pro W4', 'ヒラギノ丸ゴ Pro', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'HG丸ｺﾞｼｯｸM-PRO', 'HGMaruGothicMPRO',
+    sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  font-size: 3.125vw;
+  line-height: 1.6;
+  font-style: normal;
+  color: #67493c;
+}
+@media (min-width: 801px) {
+  body {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'ヒラギノ丸ゴ Pro', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'HG丸ｺﾞｼｯｸM-PRO', 'HGMaruGothicMPRO', sans-serif;
+  }
+}
+@media (min-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  color: #ff9639;
+}
+@media (min-width: 801px) {
+  a:hover {
+    color: #ffc239;
+  }
+}
+a:focus,
+*:focus {
+  outline: none;
+}
+img {
+  vertical-align: top;
+  line-height: 0;
+  font-size: 0;
+  max-width: 100%;
+}
+.btn_gnavi {
+  position: fixed;
+  top: 2.5vw;
+  right: 3vw;
+  display: block;
+  width: 25.625vw;
+  height: 10.875vw;
+  z-index: 10000;
+  background: url('https://www.aikatsu.com/onparade/images/common/gnavi/btn_menu.png') no-repeat left top;
+  background-size: contain;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+.btn_gnavi.btn_gnavi_active {
+  width: 16.25vw;
+  height: 16.25vw;
+  background: url('https://www.aikatsu.com/onparade/images/common/gnavi/btn_close.png') no-repeat left top;
+  background-size: contain;
+}
+#gnavi {
+  background: rgba(255, 255, 255, 0.9) url(https://www.aikatsu.com/onparade/images/common/gnavi/gnavi_bg.png);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  overflow: auto;
+  padding: 2vw 0 10vw;
+}
+.gnavi_logo {
+  display: block;
+  background: url(https://www.aikatsu.com/onparade/images/common/img_logo.png) no-repeat center center;
+  background-size: contain;
+  height: 24vw;
+  width: 32vw;
+  margin: 0 auto 3vw;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.gnavi_inner {
+  width: 86vw;
+  margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.gnavi_inner li {
+  width: 40vw;
+  margin-bottom: 2vw;
+}
+.gnavi_inner li a {
+  display: block;
+  height: 27vw;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.gnavi_inner li.gnavi_mypage,
+.gnavi_inner li.gnavi_shop {
+  margin-top: 1.5vw;
+}
+.gnavi_inner li.gnavi_mypage a,
+.gnavi_inner li.gnavi_shop a {
+  height: 34.5vw;
+}
+.gnavi_inner li.gnavi_news a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_news.png);
+}
+.gnavi_inner li.gnavi_news.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_news.png);
+}
+.gnavi_inner li.gnavi_cardlist a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_cardlist.png);
+}
+.gnavi_inner li.gnavi_cardlist.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_cardlist.png);
+}
+.gnavi_inner li.gnavi_ranking a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_ranking.png);
+}
+.gnavi_inner li.gnavi_ranking.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_ranking.png);
+}
+.gnavi_inner li.gnavi_game a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_play.png);
+}
+.gnavi_inner li.gnavi_game.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_play.png);
+}
+.gnavi_inner li.gnavi_event a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_event.png);
+}
+.gnavi_inner li.gnavi_event.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_event.png);
+}
+.gnavi_inner li.gnavi_movie a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_movie.png);
+}
+.gnavi_inner li.gnavi_movie.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_movie.png);
+}
+.gnavi_inner li.gnavi_products a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_goods.png);
+}
+.gnavi_inner li.gnavi_products.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_goods.png);
+}
+.gnavi_inner li.gnavi_anime a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_anime.png);
+}
+.gnavi_inner li.gnavi_anime.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_anime.png);
+}
+.gnavi_inner li.gnavi_mypage a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_mypage.png);
+}
+.gnavi_inner li.gnavi_mypage.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_mypage.png);
+}
+.gnavi_inner li.gnavi_shop a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/btn_shop.png);
+}
+.gnavi_inner li.gnavi_shop.current a {
+  background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/current/btn_shop.png);
+}
+.gnavi_inner li.gnavi_disabled a {
+  -webkit-filter: grayscale(100%) brightness(95%);
+  filter: grayscale(100%) brightness(95%);
+  opacity: 0.8;
+  pointer-events: none;
+}
+.mainCol_inner {
+  text-align: center;
+}
+@media (min-width: 801px) {
+  .mainCol_inner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .mainCol_inner {
+    width: 94vw;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+}
+.note {
+  padding: 3% 6% 6%;
+  text-align: left;
+  text-indent: -1em;
+  margin-left: 1em;
+  line-height: 1.5;
+}
+.note li {
+  margin-top: 1.25vw;
+}
+.contBox_bg {
+  background-image: url('https://www.aikatsu.com/onparade/images/common/bg_contents.png');
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-size: contain;
+  overflow: hidden;
+}
+.contBox_bg_btm {
+  background-image: url('https://www.aikatsu.com/onparade/images/common/bg_contents_btm.png'), url('https://www.aikatsu.com/onparade/images/common/bg_contents.png');
+  background-repeat: no-repeat, repeat-y;
+  background-position: bottom center, top center;
+  background-size: contain;
+  overflow: hidden;
+}
+.contBox_bg_top {
+  background-image: url('https://www.aikatsu.com/onparade/images/common/bg_contents_top.png'), url('https://www.aikatsu.com/onparade/images/common/bg_contents.png');
+  background-repeat: no-repeat, repeat-y;
+  background-position: top center, bottom center;
+  background-size: contain;
+  overflow: hidden;
+}
+.contBox_bg .btn,
+.contBox_bg_btm .btn {
+  padding: 0 6%;
+}
+.contBox_bg .note,
+.contBox_bg_btm .note {
+  padding: 2% 6% 3%;
+}
+.point {
+  color: #fe1725;
+}
+#btnPagetop {
+  display: block;
+  position: fixed;
+  top: auto;
+  bottom: 1.875vw;
+  right: 1.875vw;
+  width: 13vw;
+  height: 14.5vw;
+  z-index: 100;
+}
+#btnPagetop a {
+  display: block;
+  background: url(https://www.aikatsu.com/onparade/images/common/btn_pagetop.png) top center no-repeat;
+  background-size: contain;
+  width: 13vw;
+  height: 14.5vw;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  line-height: 0;
+}
+.snsCol {
+  padding: 4vw 0 6vw;
+  text-align: center;
+}
+.snsCol img {
+  width: 13.83vw;
+  margin: 0 2.91vw;
+}
+#footerCol {
+  position: relative;
+}
+.footerCol_inner {
+  margin-top: 2.125vw;
+  background-color: #ffb3b8;
+}
+.footerCol_inner::before {
+  content: '';
+  position: absolute;
+  top: -5vw;
+  left: 0;
+  width: 100%;
+  height: 5vw;
+  background-image: url('https://www.aikatsu.com/onparade/images/common/bg_footer.png');
+  background-repeat: repeat-x;
+  background-position: left top;
+  background-size: 4.375vw;
+}
+.footer_bnrCol {
+  text-align: center;
+  padding: 6vw 4vw;
+}
+.footer_bnrCol_inner {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.footer_bnrCol_inner li {
+  width: 41.5vw;
+  margin: 0 1.5vw 3vw;
+}
+.footer_bnrCol_inner li img {
+  display: block;
+  width: 100%;
+}
+.footer_bnrCol_inner li.footer_bnrCol-center {
+  display: block;
+  margin: 0 auto 3vw;
+}
+.footer_bnrCol_exbnr li {
+  width: 41.5vw;
+  margin: 2vw auto 3vw;
+}
+.footer_exLink {
+  padding: 4vw 0 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-family: 'ヒラギノ丸ゴ Pro W4', 'ヒラギノ丸ゴ Pro', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'HG丸ｺﾞｼｯｸM-PRO', 'HGMaruGothicMPRO', sans-serif;
+}
+@media (min-width: 801px) {
+  .footer_exLink {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .footer_exLink {
+    width: 94vw;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+}
+.footer_exLink li a {
+  border-radius: 12px;
+  width: 30vw;
+  padding: 2vw 1.3vw;
+  display: block;
+  background-color: #fff;
+  color: #67493c;
+  font-weight: 700;
+  font-size: 9px;
+  font-size: 2.8125vw;
+}
+@media (min-width: 640px) {
+  .footer_exLink li a {
+    font-size: 13.5px;
+  }
+}
+.footer_exLink li a span {
+  padding-left: 2.25vw;
+  background-image: url('https://www.aikatsu.com/onparade/images/common/ico_arw_orange.png');
+  background-repeat: no-repeat;
+  background-position: 0px 0.5vw;
+  background-size: 1.5vw;
+}
+.footer_exLink li.footer_exLink_disabled a {
+  -webkit-filter: grayscale(100%) brightness(90%);
+  filter: grayscale(100%) brightness(90%);
+  opacity: 0.85;
+  pointer-events: none;
+}
+.footer_infoCol {
+  background: #ff8f96;
+}
+.footer_infoCol_inner {
+  padding: 4vw 0;
+}
+@media (min-width: 801px) {
+  .footer_infoCol_inner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 800px) {
+  .footer_infoCol_inner {
+    width: 94vw;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+}
+.footer_infoCol_inner .copyright {
+  font-size: 9px;
+  font-size: 2.8125vw;
+  color: #fff;
+}
+@media (min-width: 640px) {
+  .footer_infoCol_inner .copyright {
+    font-size: 13.5px;
+  }
+}
+.footer_infoCol_inner .copyright p {
+  margin-bottom: 1em;
+}
+.footer_infoCol_exLink {
+  margin-top: 4vw;
+  overflow: hidden;
+  height: 100%;
+}
+.footer_infoCol_exLink li {
+  float: left;
+  margin-right: 1em;
+}
+.footer_infoCol_exLink li img {
+  height: 10.5vw;
+}
+.scrptGtm {
+  display: none;
+}
+@media (min-width: 801px) {
+  body {
+    font-family: 'M PLUS Rounded 1c', 'ヒラギノ丸ゴ Pro W4', 'ヒラギノ丸ゴ Pro', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'HG丸ｺﾞｼｯｸM-PRO', 'HGMaruGothicMPRO',
+      sans-serif;
+  }
+  .btn_gnavi {
+    transition: 0.1s;
+    top: 1.5%;
+    right: 1%;
+    width: 8%;
+    max-width: 128px;
+    min-width: 90px;
+    padding-top: 10%;
+    height: 0;
+    z-index: 10000;
+    background: url('https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_menu.png') no-repeat left top;
+    background-size: 100%;
+  }
+  .btn_gnavi:hover {
+    background: url('https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_menu_on.png') no-repeat 0px 2px;
+    background-size: 100%;
+  }
+  .btn_gnavi.btn_gnavi_active {
+    width: 89px;
+    height: 92px;
+    background: url('https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_close.png') no-repeat left top;
+    background-size: 89px;
+  }
+  .btn_gnavi.btn_gnavi_active:hover {
+    background: url('https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_close_on.png') no-repeat 0px 2px;
+    background-size: 89px;
+  }
+  #gnavi {
+    padding: 24px 0 0;
+  }
+  .gnavi_logo {
+    width: 213px;
+    height: 160px;
+    margin: 0 auto 20px;
+  }
+}
+@media (min-width: 801px) and (min-width: 801px) {
+  .gnavi_logo {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .gnavi_logo:hover,
+  .gnavi_logo:focus,
+  .gnavi_logo:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 801px) {
+  .gnavi_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: auto;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .gnavi_inner li {
+    width: 21%;
+    margin: 1.5%;
+  }
+  .gnavi_inner li a {
+    height: 0;
+    padding-top: 42%;
+  }
+}
+@media (min-width: 801px) and (min-width: 801px) {
+  .gnavi_inner li a {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .gnavi_inner li a:hover,
+  .gnavi_inner li a:focus,
+  .gnavi_inner li a:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 801px) {
+  .gnavi_inner li.gnavi_mypage,
+  .gnavi_inner li.gnavi_shop {
+    margin: 1.5%;
+  }
+  .gnavi_inner li.gnavi_mypage a,
+  .gnavi_inner li.gnavi_shop a {
+    height: 142px;
+  }
+  .gnavi_inner li.gnavi_news a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_news.png);
+  }
+  .gnavi_inner li.gnavi_news.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_news.png);
+  }
+  .gnavi_inner li.gnavi_cardlist a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_cardlist.png);
+  }
+  .gnavi_inner li.gnavi_cardlist.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_cardlist.png);
+  }
+  .gnavi_inner li.gnavi_ranking a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_ranking.png);
+  }
+  .gnavi_inner li.gnavi_ranking.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_ranking.png);
+  }
+  .gnavi_inner li.gnavi_game a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_play.png);
+  }
+  .gnavi_inner li.gnavi_game.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_play.png);
+  }
+  .gnavi_inner li.gnavi_event a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_event.png);
+  }
+  .gnavi_inner li.gnavi_event.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_event.png);
+  }
+  .gnavi_inner li.gnavi_movie a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_movie.png);
+  }
+  .gnavi_inner li.gnavi_movie.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_movie.png);
+  }
+  .gnavi_inner li.gnavi_products a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_goods.png);
+  }
+  .gnavi_inner li.gnavi_products.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_goods.png);
+  }
+  .gnavi_inner li.gnavi_anime a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_anime.png);
+  }
+  .gnavi_inner li.gnavi_anime.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_anime.png);
+  }
+  .gnavi_inner li.gnavi_mypage a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_mypage.png);
+  }
+  .gnavi_inner li.gnavi_mypage.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_mypage.png);
+  }
+  .gnavi_inner li.gnavi_shop a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc/btn_shop.png);
+  }
+  .gnavi_inner li.gnavi_shop.current a {
+    background-image: url(https://www.aikatsu.com/onparade/images/common/gnavi/pc_current/btn_shop.png);
+  }
+  .note {
+    font-size: 16px;
+    font-size: 5vw;
+    padding: 2% 6% 6%;
+  }
+}
+@media (min-width: 801px) and (min-width: 640px) {
+  .note {
+    font-size: 24px;
+  }
+}
+@media (min-width: 801px) {
+  .note li {
+    margin-top: 12px;
+  }
+  .contBox_bg .btn,
+  .contBox_bg_btm .btn {
+    padding: 0;
+  }
+  #btnPagetop {
+    bottom: 15px;
+    right: 15px;
+    width: 104px;
+    height: 116px;
+  }
+  #btnPagetop.footerfix {
+    position: absolute;
+    top: -160px;
+    bottom: auto;
+  }
+  #btnPagetop a {
+    width: 104px;
+    height: 116px;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition-timing-function: ease-out;
+  }
+  #btnPagetop a:hover,
+  #btnPagetop a:focus,
+  #btnPagetop a:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  .snsCol {
+    padding: 24px 0 50px;
+    text-align: center;
+  }
+}
+@media (min-width: 801px) and (min-width: 801px) {
+  .snsCol a {
+    transition: 0.15s;
+  }
+  .snsCol a:hover,
+  .snsCol a:focus,
+  .snsCol a:active {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}
+@media (min-width: 801px) {
+  .snsCol img {
+    width: 50px;
+    margin: 0 20px;
+  }
+  .footerCol_inner {
+    margin-top: 17px;
+  }
+  .footerCol_inner::before {
+    top: -35px;
+    height: 40px;
+    background-size: 35px;
+  }
+  .footer_bnrCol {
+    text-align: center;
+    padding: 50px 0 40px;
+  }
+}
+@media (min-width: 801px) and (min-width: 801px) {
+  .footer_bnrCol a {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .footer_bnrCol a:hover,
+  .footer_bnrCol a:focus,
+  .footer_bnrCol a:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 801px) {
+  .footer_bnrCol_inner {
+    max-width: 1200px;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footer_bnrCol_inner li {
+    width: 270px;
+    margin: 0 12px 1em;
+  }
+  .footer_bnrCol_inner li img {
+    display: block;
+    width: 100%;
+  }
+  .footer_bnrCol_inner li.footer_bnrCol-center {
+    margin: 0 12px 1em;
+  }
+  .footer_bnrCol_inner li a {
+    display: block;
+  }
+  .footer_bnrCol_exbnr li {
+    width: auto;
+  }
+  .footer_exLink {
+    max-width: 1200px;
+    margin: auto;
+    width: auto;
+    padding: 24px 0 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .footer_exLink li {
+    margin: 0 12px;
+  }
+  .footer_exLink li a {
+    width: 210px;
+    padding: 20px 15px;
+    font-size: 10px;
+    font-size: 3.125vw;
+  }
+}
+@media (min-width: 801px) and (min-width: 640px) {
+  .footer_exLink li a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 801px) {
+  .footer_exLink li a span {
+    background-position: 0px 2px;
+    background-size: 9px;
+    padding-left: 14px;
+  }
+  .footer_infoCol_inner {
+    padding: 24px 0 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 801px) and (min-width: 801px) {
+  .footer_infoCol_inner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 801px) and (max-width: 800px) {
+  .footer_infoCol_inner {
+    width: 94vw;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 801px) {
+  .footer_infoCol_exLink {
+    margin: 0;
+    overflow: hidden;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+  }
+  .footer_infoCol_exLink li {
+    float: none;
+    margin: 0 0 1em 1em;
+  }
+  .footer_infoCol_exLink li img {
+    height: 48px;
+  }
+}
+
+/*# sourceMappingURL=maps/layout.css.map */

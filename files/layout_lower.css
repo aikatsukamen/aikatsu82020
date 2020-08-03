@@ -1,0 +1,635 @@
+body {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_gingham_yellow.png);
+}
+.logo_lower {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logo_lower img {
+  width: 19.33vw;
+}
+.header_lower {
+  padding-top: 5.41vw;
+}
+.header_lower h2 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  height: 8vw;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto 5.5vw;
+}
+.header_lower h2:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0.5vw;
+  background: url(https://www.aikatsu.com/onparade/images/common/tit_dot.png) no-repeat bottom center;
+  height: 7vw;
+  width: 100%;
+  background-size: 3.5vw;
+  margin: auto;
+}
+.header_lower .title_dpnone {
+  opacity: 0;
+  display: none;
+}
+.title_news {
+  background-image: url(https://www.aikatsu.com/onparade/images/news/tit_news.png);
+}
+.title_game {
+  background-image: url(https://www.aikatsu.com/onparade/images/game/tit_game.png?v2);
+}
+.title_cardlist {
+  background-image: url(https://www.aikatsu.com/onparade/images/cardlist/tit_cardlist.png);
+}
+.title_ranking {
+  background-image: url(https://www.aikatsu.com/onparade/images/ranking/tit_ranking.png);
+}
+.title_event {
+  background-image: url(https://www.aikatsu.com/onparade/images/event/tit_event.png?v2);
+}
+.title_movie {
+  background-image: url(https://www.aikatsu.com/onparade/images/movie/tit_movie.png);
+}
+.title_products {
+  background-image: url(https://www.aikatsu.com/onparade/images/products/tit_products.png);
+}
+.title_anime {
+  background-image: url(https://www.aikatsu.com/onparade/images/anime/tit_anime.png);
+}
+.titCol {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 15.83vw;
+  text-align: center;
+}
+.titCol img {
+  width: 100%;
+}
+.container_lower {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_top_border.png) repeat-x, url(https://www.aikatsu.com/onparade/images/common/bg_lower.png) top center/100% no-repeat;
+  padding: 0 0;
+}
+.contCol_lower {
+  background: #ffffff;
+  border-radius: 2.5vw;
+  padding: 4.16vw 0;
+  margin-bottom: 3.33vw;
+}
+.tit_lower {
+  margin-left: -2.2vw;
+}
+.snsCol_lower {
+  padding: 2vw 0 3vw;
+}
+.endCont {
+  position: relative;
+}
+.endCont .endCont_txt {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  top: 10vw;
+}
+@media (min-width: 801px) {
+  .endCont .endCont_txt {
+    top: 100px;
+  }
+}
+.endCont .endCont_inner {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.endCont .endCont_inner.is_pale {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.btn {
+  display: block;
+  width: 85.58333vw;
+  margin: 0 auto;
+}
+.btn img {
+  width: 100%;
+  height: 100%;
+}
+.dummy {
+  -webkit-filter: grayscale(100%) brightness(60%);
+  filter: grayscale(100%) brightness(60%);
+}
+.subCol {
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_snavi_top.png) top center/100% no-repeat;
+  padding-top: 1.66vw;
+}
+.subColInner {
+  background: #ffffff;
+  padding: 8vw 2%;
+}
+.subColTitle {
+  height: 6.75vw;
+  margin: 0 auto 4.16vw;
+  text-align: center;
+}
+.subColTitle img {
+  height: 100%;
+}
+.snCap {
+  cursor: pointer;
+  margin-bottom: 2.6vw;
+  position: relative;
+  line-height: 4vw;
+}
+.snCap a {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  border: 0.5vw solid #fb8e00;
+  border-radius: 1.167vw;
+  background: linear-gradient(to bottom, #fff9d7, #fff);
+  font-size: 2.8vw;
+  font-weight: bold;
+  padding: 5vw 3.5vw;
+  z-index: 1;
+}
+.snCap a:before {
+  border: 0.5vw solid #ffffff;
+  content: '';
+  width: calc(100% - 1.2vw);
+  height: calc(100% - 1.2vw);
+  position: absolute;
+  top: 0.1vw;
+  left: 0.1vw;
+  border-radius: 1vw;
+}
+.snCap a p {
+  text-shadow: 2px 2px 0px #ffffff;
+  width: 90%;
+}
+.snCap a p:after {
+  display: block;
+  content: '';
+  background: url(https://www.aikatsu.com/onparade/images/common/ico_arrow_orange_under.png) no-repeat;
+  background-size: contain;
+  width: 3.66vw;
+  height: 2.5vw;
+  margin: auto 0;
+  position: absolute;
+  right: 4vw;
+  top: 0;
+  bottom: 0;
+}
+.snCap:after {
+  content: '';
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_snavi_btn_shadow.png);
+  width: 100%;
+  height: 2vw;
+  position: absolute;
+  bottom: -1vw;
+  left: 0;
+  border-radius: 0 0 1.66vw 1.66vw;
+}
+.snCap.js-close a {
+  background: linear-gradient(to top, #fff9d7, #fff);
+}
+.snCap.js-close a p:after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.snCap.snCap_old {
+  -webkit-filter: hue-rotate(217deg);
+  filter: hue-rotate(217deg);
+}
+.snaviBtn a {
+  margin-bottom: 2.6vw;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  position: relative;
+  background: url(https://www.aikatsu.com/onparade/images/common/bg_btn_snavi_new.png) right center no-repeat;
+  background-size: cover;
+  min-height: 13vw;
+  padding: 3vw 3.5vw 2.6vw;
+  border-radius: 1vw;
+  line-height: 1.3;
+  box-shadow: 0 0.875vw #fb8e00;
+}
+.snaviBtn p {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 90%;
+  color: #ffffff;
+  font-size: 2.7vw;
+}
+.snaviBtn.snOn {
+  -webkit-filter: hue-rotate(170deg);
+  filter: hue-rotate(170deg);
+}
+.snaviBtn.snOn span {
+  -webkit-filter: hue-rotate(-180deg);
+  filter: hue-rotate(-180deg);
+}
+.icon-new {
+  background: url('https://www.aikatsu.com/onparade/images/common/icon_new.png') no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -1.25vw;
+  left: -1.25vw;
+  width: 12.5vw;
+  height: 4vw;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.indexList {
+  text-align: left;
+}
+.indexList .subCol {
+  margin: 0;
+}
+.indexList .subColInner {
+  padding: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.indexList .subColTitle {
+  display: none;
+}
+#catgIndex {
+  padding-bottom: 4vw;
+}
+.basesizeCol {
+  width: 85.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wmaxsizeCol {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.creamRoundCol {
+  background-color: #fffeef;
+  width: 85.5vw;
+  margin: 0 auto;
+  border-radius: 2vw;
+  padding: 4.375vw;
+  font-size: 2.75vw;
+}
+.creamRoundCol .whiteRoundCol {
+  background-color: #ffffff;
+  border-radius: 1.75vw;
+  margin: 2.5vw auto;
+  padding: 2.5vw;
+}
+.creamRoundCol .fSizeS {
+  font-size: 2.5vw;
+}
+.creamRoundCol .fBold {
+  font-weight: bold;
+}
+.linupList {
+  display: inline-block;
+  margin: 0 auto;
+  text-indent: -1em;
+  margin-left: 1em;
+  line-height: 1.5;
+}
+.linupList.alignL {
+  text-align: left;
+}
+.linupList li {
+  padding: 0.2em 0;
+}
+.contCol_flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+.contCol_flex img {
+  display: block;
+  max-height: 20vw;
+  margin: 0;
+}
+.toggleCol .storeCol {
+  display: none;
+}
+.toggleCol .toggleBtn {
+  width: 85.5vw;
+  margin: 0 auto;
+}
+@media (min-width: 801px) {
+  .toggleCol .toggleBtn {
+    width: 60%;
+  }
+}
+.toggleCol .toggleBtn img:hover {
+  cursor: pointer;
+}
+@media (min-width: 801px) {
+  .toggleCol .toggleBtn img:hover {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .toggleCol .toggleBtn img:hover:hover,
+  .toggleCol .toggleBtn img:hover:focus,
+  .toggleCol .toggleBtn img:hover:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.toggleCol .toggleBtn .off {
+  display: none;
+}
+@media (min-width: 801px) {
+  body {
+    background: url(https://www.aikatsu.com/onparade/images/common/bg_gingham_yellow.png);
+  }
+  .container_lower {
+    border-top: 10px solid #fa8d00;
+    background: url(https://www.aikatsu.com/onparade/images/common/pc/bg_lower.png) top center no-repeat;
+  }
+  .logo_lower img {
+    width: 200px;
+  }
+  .header_lower {
+    padding-top: 72px;
+  }
+  .header_lower h2 {
+    height: 62px;
+    background-size: auto 40px;
+  }
+  .header_lower h2:after {
+    top: 1px;
+    background: url(https://www.aikatsu.com/onparade/images/common/tit_dot.png) no-repeat bottom center;
+    background-size: 30px;
+    height: 60px;
+  }
+  .mainCol_inner_lower {
+    width: 1150px;
+    margin: auto;
+  }
+  .titCol {
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  .titCol img {
+    width: 830px;
+  }
+  .contCol_lower {
+    border-radius: 30px;
+    padding: 60px 0;
+    margin-bottom: 40px;
+  }
+  .contCol_box {
+    width: 800px;
+    margin: auto;
+  }
+  .tit_lower {
+    width: 1171px;
+    margin-left: -28px;
+  }
+  .snsCol_lower {
+    padding: 24px 0 24px;
+  }
+  .catch_text_n {
+    width: 60%;
+  }
+  .catch_text_l {
+    width: 80%;
+  }
+  .catch_text_ll {
+    width: 90%;
+  }
+  .subCol {
+    background: none;
+    padding-top: 0;
+    position: relative;
+    margin-top: 112px;
+    background: #ffffff;
+  }
+  .subCol::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background: url('https://www.aikatsu.com/onparade/images/common/bg_zigzag_bottom.png') repeat-x 0 10px;
+    background-size: 80px 50px;
+    top: -50px;
+  }
+  .subColInner {
+    max-width: 1150px;
+    margin: auto;
+    padding: 40px 15px 70px;
+  }
+  .subColTitle {
+    width: 25%;
+    margin: 0 auto 40px;
+    height: auto;
+  }
+  .subColTitle img {
+    width: 100%;
+    height: auto;
+  }
+  .snCap {
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 2.6em;
+  }
+  .snCap:after {
+    background: url(https://www.aikatsu.com/onparade/images/common/pc/bg_snavi_btn_shadow.png);
+    height: 16px;
+    bottom: -7px;
+    border-radius: 0 0 12px 12px;
+  }
+  .snCap:hover {
+    top: 8px;
+  }
+  .snCap:hover:after {
+    height: 16px;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 30px 30px;
+  }
+  .snCap a {
+    font-family: 'M PLUS Rounded 1c', 'ヒラギノ丸ゴ Pro W4', 'ヒラギノ丸ゴ Pro', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'HG丸ｺﾞｼｯｸM-PRO', 'HGMaruGothicMPRO',
+      sans-serif;
+    border: 4px solid #fb8e00;
+    border-radius: 12px;
+    font-size: 29px;
+    font-weight: 700;
+    padding: 34px 20px;
+    color: #ffaa24;
+    text-shadow: 0 5px 0 #fff;
+  }
+  .snCap a:before {
+    border: 4px solid #ffffff;
+    content: '';
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+  }
+  .snCap a p:after {
+    display: block;
+    content: '';
+    background: url(https://www.aikatsu.com/onparade/images/common/ico_arrow_orange_under.png) no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 24px;
+    margin: auto 0;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+  }
+  .snCap.js-close a p:after {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .snaviBtn a {
+    margin-bottom: 18px;
+    background: url(https://www.aikatsu.com/onparade/images/common/pc/bg_btn_snavi_new.png) right center no-repeat;
+    background-size: cover;
+    min-height: 70px;
+    padding: 14px 22px;
+    border-radius: 12px;
+    box-shadow: 0 6px #fb8e00;
+  }
+  .snaviBtn a p {
+    width: 95%;
+    font-family: 'M PLUS Rounded 1c', 'ヒラギノ丸ゴ Pro W4', 'ヒラギノ丸ゴ Pro', 'Hiragino Maru Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'HG丸ｺﾞｼｯｸM-PRO', 'HGMaruGothicMPRO',
+      sans-serif;
+    font-size: 23.5px;
+    margin-top: 1px;
+  }
+  .snaviBtn a:hover {
+    top: 5px;
+    box-shadow: none;
+  }
+  .icon-new {
+    top: -7px;
+    left: -7px;
+    width: 72px;
+    height: 22px;
+  }
+  .indexList .subColInner {
+    width: 80%;
+    outline: 1px solid transparent;
+    -webkit-transform-origin: top center 0;
+    transform-origin: top center 0;
+  }
+  .indexList .subColInner .snCap a {
+    font-size: 26px;
+    padding: 28px 20px;
+  }
+  .indexList .subColInner .snCap a p:after {
+    width: 24px;
+    height: 20px;
+    right: 24px;
+  }
+  .indexList .subColInner .snaviBtn a {
+    min-height: 62px;
+    padding: 12px 22px;
+  }
+  .indexList .subColInner .snaviBtn a p {
+    font-size: 21px;
+  }
+  .contCol_flex img {
+    max-height: 170px;
+    margin: 0 20px;
+  }
+  .btn {
+    width: 640px;
+  }
+}
+@media (min-width: 801px) and (min-width: 801px) {
+  .btn:hover img {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+  }
+  .btn:hover img:hover,
+  .btn:hover img:focus,
+  .btn:hover img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 801px) {
+  .dummy {
+    -webkit-filter: grayscale(100%) brightness(60%);
+    filter: grayscale(100%) brightness(60%);
+  }
+  .dummy.btn:hover img {
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+  .basesizeCol {
+    width: 1026px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wmaxsizeCol {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .creamRoundCol {
+    border-radius: 18px;
+    width: 1026px;
+    padding: 40px;
+    font-size: 22px;
+  }
+  .creamRoundCol .whiteRoundCol {
+    border-radius: 16px;
+    margin: 30px auto;
+    padding: 30px;
+  }
+  .creamRoundCol .fSizeS {
+    font-size: 20px;
+  }
+  .linupList {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .linupList.alignL {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=maps/layout_lower.css.map */
